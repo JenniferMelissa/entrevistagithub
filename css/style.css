@@ -86,13 +86,43 @@ nav ul li a:hover{
 }
 
 #area-principal{
-    width: 1010px;
+    width: 500px;
     border: 2px solid lightcoral;
     height: 555px;
     margin-left: 100px;
+    
 
 }
 
 footer{
     margin-top: 10px;
+}
+
+.postit-laranja{
+    border: 2px solid orange;
+}
+
+#draggable {
+    width: 75px;
+    height: 75px;
+    color:#000000;
+   }
+
+.texto-padrao{
+     font-size: 12px;
+     font-family: 'Times New Roman', Times, serif;
+     color: black;
+}
+
+.texto-azul{
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;    
+    color: blue;
+
+}
+
+.texto-rosa{
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    color: pink;
 }

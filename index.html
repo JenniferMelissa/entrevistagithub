@@ -7,6 +7,21 @@
     <title>Escola Front-End curso GIt e GitHub</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>
+    
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#draggable" ).draggable();
+    } );
+    </script>
+
+
+
 </head>
 <body>
     
@@ -22,8 +37,8 @@
         <section id="menu-lateral">
             <nav>
                 <ul>
-                    <li><a href="index;html"><img src="logos/Icones Logo/Mural.png" width="22"> Mural</a></li>
-                    <li><a href="configuraçoes.html"><img src="logos/Icones Logo/config.png" width="22"> Configurações</a></li>
+                    <li><a href="index.html"><img src="logos/Icones Logo/Mural.png" width="22"> Mural</a></li>
+                    <li><a href="configuracoes.html"><img src="logos/Icones Logo/config.png" width="22"> Configurações</a></li>
                     <li><a href="aulas.html"><img src="logos/Icones Logo/Aula.png" width="22"> Aulas</a></li>
                     <li><a href="podcast.html"><img src="logos/Icones Logo/PodCast.png" width="22"> PodCast</a></li>
                     <li><a href="testes.html"><img src="logos/Icones Logo/Teste.png" width="22"> Testes</a></li>
@@ -42,9 +57,19 @@
             
                 </ul>
             </nav>
-           
-            <section id="area-principal">
-                <h1>Mural de Avisos</h1>
+        </section>
+
+        <h1>Mural de Avisos <span class="badge badge-secondary">Novo</span></h1> 
+            
+        <section id="area-principal">
+                
+
+                <div id="draggable" class="ui-widget-content">
+
+                    Carreta 5g
+
+                </div>
+
             </section>
             
          
